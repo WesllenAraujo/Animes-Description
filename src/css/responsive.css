@@ -1,0 +1,145 @@
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .anime-background {
+        width: 160vh;
+    }
+
+    .description-box {
+        left: 40em;
+    }
+
+    #fairyTail-content {
+        left: -5em;
+    }
+
+    .description-box-left {
+        left: 15em;
+    }
+
+    #jujutsu-content {
+        left: -10em;
+    }
+
+    #dbz-content {
+        left: -10em;
+    }
+
+    .manual-navigation {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .anime-background {
+        width: 128vh;
+    }
+    
+    .description-box {
+        left: 30em;
+    }
+
+   .anime-content-right {
+        left: -22em;
+   }
+
+   .description-box-left {
+        left: 25em;
+        top: 5em;
+   }
+
+   .manual-navigation {
+        left: 1em;
+    }
+}
+
+@media (min-width:600px) and (max-width: 1000px) {
+    .anime-background {
+        width: 70vh;
+    }
+
+    .description-box {
+        left: 10em;
+        top: 15em;
+    }
+
+    .anime-content-right {
+        left: -45em;
+        top: 4em;
+    }
+
+    .description-box-left {
+        left: 47em;
+        top: 20em;
+    }
+
+    #fairyTail-content {
+        left: 1em;
+        align-items: flex-start;
+    }
+
+    #fairyTail-description-box {
+        left: -2em;
+    }
+
+    .manual-navigation {
+        left: 0.5em;
+    }
+}
+
+@media (min-width:500) and (max-width: 600px) {
+    .anime-background {
+        width: 70vh;
+    }
+
+    .manual-navigation {
+        left: .5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .anime-background {
+        width: 55vh;
+    }
+
+    .description-box {
+        top: 20em;
+        width: 26em;
+        left: -2.5em;
+        font-size: .8em;
+    }
+
+    .anime-content-right {
+        align-items: flex-start;
+        left: -1em;
+        top: -3em;
+    }
+
+    .description-box-left {
+        top: 18em;
+        width: 28em;
+        left: -1.2em;
+        font-size: .75em;
+    }
+
+    #jujutsu-content {
+        top: 2em;
+        left: 1em;
+    }
+
+    #dbz-description-box {
+        left: 1.4em;
+    }
+
+    #dbz-button {
+        margin-left: 2em;
+    }
+
+    .manual-navigation {
+        left: .5em;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .anime-background {
+        width: 55vh;
+    }
+}

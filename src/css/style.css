@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 100%;
+    position: relative;
+    transition: 1s;
+}
+
+.anime-background {
+    width: 207.8vh;
+    height: 100%;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    margin: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    bottom: 3em;
+}
+
+.manual-btn {
+    width: 5em;
+    height: 2em;
+    border: 3px solid #0600af;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 0.5em;
+}
+
+.manual-btn {
+    margin-left: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -100%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -200%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -300%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -400%;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~.navigation-auto .auto-btn1 {
+    background-color: #fff;
+}
+
+#radio2:checked ~.navigation-auto .auto-btn2 {
+    background-color: #fff;
+}
+
+#radio3:checked ~.navigation-auto .auto-btn3 {
+    background-color: #fff;
+}
+
+#radio4:checked ~.navigation-auto .auto-btn4 {
+    background-color: #fff;
+}
+
+#radio5:checked ~.navigation-auto .auto-btn5 {
+    background-color: #fff;
+}
+
+.anime-content {
+    position: absolute;
+    width: 85em;
+    left: 30px;
+    top: 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.anime-button {
+    font-size: 2em;
+    width: 1.4em;
+    height: 1.4em;
+    cursor: pointer;
+    border: 1px solid #efefef;
+    background-color: rgba(144, 144, 144, 0.452);
+    cursor: pointer;
+    color: #fff;
+}
+
+.anime-button:hover {
+    background-color: rgba(213, 212, 212, 0.452);
+}
+
+.description-box {
+    position: absolute;
+    width: 30em;
+    background-color: rgba(220, 220, 220, 0.667);
+    display: none;
+    align-self: flex-end;
+    padding: 1em;
+}
+
+.description-box-left {
+    position: absolute;
+    width: 30em;
+    background-color: rgba(220, 220, 220, 0.667);
+    display: none;
+    align-self: flex-start;
+    padding: 1em;
+}
+
+.anime-content-right {
+    position: absolute;
+    width: 85em;
+    left: 30px;
+    top: 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.anime-description {
+    font-size: 2em;
+}
+
+.anime-logo {
+    width: 20em;
+    height: 8em;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: #a4aff7;
+    text-decoration: underline;
+}

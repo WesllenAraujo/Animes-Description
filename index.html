@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes Description</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <div class="slide first">
+                        <img src="./src/images/onePiece-desktopBackground.jpg" alt="One Piece background image" class="anime-background" id="onePiece-background">
+                        <div class="anime-content">
+                            <img src="./src/images/onepiece-logo.svg" alt="One piece logo image" class="anime-logo">
+                            <button id="onepiece-button" onclick="buttonPressed()" class="anime-button">+</button>
+                            <div id="onepiece-description-box" class="description-box">
+                                <p class="anime-description">A série foca em Monkey D. Luffy, um jovem feito de borracha, que, inpirado em seu ídolo de infância, o poderoro pirata Shanks, o Ruivo, parte em uma jornada do mar do East Blue para encnotrar o tesouro mítico, o One Piece, e proclamar-se o Rei dos Piratas. <br>
+                                (<a href="https://pt.wikipedia.org/wiki/One_Piece#:~:text=A%20série%20foca%20em%20Monkey,se%20o%20Rei%20dos%20Piratas." class="anchor">Wikipedia</a>, 25/07/2023).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./src/images/fairyTail-desktopBackground.jpg" alt="Fairy Tail Background image" class="anime-background" id="fairyTail-background">
+                        <div class="anime-content" id="fairyTail-content">
+                            <div class="anime-content-right" id="fairyTail-content">
+                                <img src="./src/images/fairyTail-logo.svg" alt="Fairy Tail logo image" class="anime-logo" id="fairyTail-logo">
+                                <button id="fairyTail-button" onclick="buttonPressed()" class="anime-button">+</button>
+                                <div id="fairyTail-description-box" class="description-box-left">
+                                    <p class="anime-description">A séria foca nos magos Lucy Heartfilia e Natsu Dragneel, onde ambos trilham uma grande jornada na guilda Fairy Tail e fazendo muitos amigos nesse mundo cheio de craituras mágicas e inimigos extremamente poderosos. Lucy encontra Natsu na grande cidade de Magnolia e Natus a convida a entrar na guilda Fairy Tail e formam um grupo com Erza Scarlet e Gray Fullbuster. <br>
+                                    (Wesllen, 25/07/2023).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./src/images/jujutsuKaisen-desktopBackground.jpg" alt="Jujutsu Kaisen background image" class="anime-background" id="jujutsuKaisen-background">
+                        <div class="anime-content-right" id="jujutsu-content">
+                            <img src="./src/images/jujutsuKaisen-logo.svg" alt="Jujustu Kaisen logo image" class="anime-logo">
+                            <button id="jujutsu-button" onclick="buttonPressed()" class="anime-button">+</button>
+                            <div id="jujutsu-description-box" class="description-box-left">
+                                <p class="anime-description">A história de Jujutsu Kaisen se passa em um universo em que a concentração de sentimentos negativos dá origem a Maldições - monstros perigosos, que pessoas comuns não conseguem enxergar. Nesse contexto, Itadori Yuji é um garoto qeu vive com seu avô e possui capacidade física além do normal. <br>
+                                (<a href="https://jovemnerd.com.br/nerdbunker/jujutsu-kaisen-o-que-aconteceu-na-primeira-temporada/#:~:text=A%20história%20de%20Jujutsu%20Kaisen,capacidade%20física%20além%20do%20normal." class="anchor">Joven Nerd</a>, 25/07/2023).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./src/images/naruto-desktopBackground.jpg" alt="Naruto background image" class="anime-background" id="naruto-background">
+                        <div class="anime-content" id="naruto-content">
+                            <img src="./src/images/naruto-logo.svg" alt="Naruto Shippuden logo image" class="anime-logo">
+                            <button id="naruto-button" onclick="buttonPressed()" class="anime-button">+</button>
+                            <div id="naruto-description-box" class="description-box">
+                                <p class="anime-description">Naruto é um anime baseado no mangá de mesmo nome escrito por Masashi Kishimoto. A série gira em torno das aventuras vividas por Naruto Uzumaki, um jovem órfão habitante da Aldeia da Folha que sonha em se tornar o quinto Hokage, o maior guerreiro e governante da vila. <br>
+                                (<a href="https://www.folhabv.com.br/variedades/entretenimento/naruto-anime-japones-completa-20-anos-de-trajetoria/#:~:text=Naruto%20é%20um%20anime%20baseado,guerreiro%20e%20governante%20da%20vila." class="anchor">FOLHA BV</a>, 25/07/2023).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./src/images/dragonBallZ-desktopBackground.jpg" alt="Dragon Ball Z background image" class="anime-background" id="dbz-background">
+                        <div class="anime-content-right" id="dbz-content">
+                            <img src="./src/images/dragonballz-logo.svg" alt="Dragon Ball Z logo image" class="anime-logo">
+                            <button id="dbz-button" onclick="buttonPressed()" class="anime-button">+</button>
+                            <div id="dbz-description-box" class="description-box-left">
+                                <p class="anime-description">Criada por Akira Toryiama, a franquia conta a história de Son Goku, guerreiro que descobre ser parte de um legado de poderosos conquistadores alienígenas - e passa a defender seu planeta adotivo, a Terra, de outros seres igualmente superfortes e capazes de feitos descomunais. <br>
+                                (<a href="https://www.omelete.com.br/dragon-ball-z#:~:text=Criada%20por%20Akira%20Toryiama%2C%20a,e%20capazes%20de%20feitos%20descomunais." class="anchor">Omelete</a>, 25/07/2023).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
